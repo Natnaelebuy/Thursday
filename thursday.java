@@ -1,13 +1,28 @@
+import java.util.Scanner;
+
 public class thursday {
     
+    private static String vaccination;
+
     public static void main(String[] args) {
 
-        String[] cars = {"BMW M2", "Veloster N", "GTI"};
+        Scanner sc=new Scanner (System.in);
+        String name;
+        int age;
+        String vaccinaion;
 
-        for(String car : cars ){
-            System.out.println(car);
-        }
         
+
+        System.out.println("Enter your name");
+        name=sc.next();
+        System.out.println("Enter your age");
+        age=sc.nextInt();
+        System.out.println("Enter vaccination name ");
+        vaccinaion=sc.next();
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Vaccinaion " + vaccination);
    
         
     
