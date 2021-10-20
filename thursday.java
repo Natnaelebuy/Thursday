@@ -23,7 +23,7 @@ public class thursday {
 
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
-        System.out.println("booster vaccination is " + medical);
+        System.out.println(" your booster vaccination is " + medical);
    
         
     
