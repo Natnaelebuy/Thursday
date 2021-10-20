@@ -6,24 +6,26 @@ public class thursday {
 
     public static void main(String[] args) {
 
+        /// The vaccinations are "pfizer-alpha", "moderna-alpha", "johnson-alpha", "pfizer-omega", "pfizer-kappa", "moderna-delta", "moderna-gamma", "moderna-zeta"
+
         Scanner sc=new Scanner (System.in);
         
-        String name;
+        String name, medical;
         int age;
-        String medical;
+        
 
         
 
-        System.out.println("Enter your name");
+        System.out.println("Please Enter your name");
         name=sc.next();
-        System.out.println("Enter your age");
+        System.out.println("Please Enter your age");
         age=sc.nextInt();
-        System.out.println("Enter vaccination name ");
+        System.out.println("Please Enter vaccination name ");
         medical=sc.next();
 
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
-        System.out.println(" your booster vaccination is " + medical);
+        System.out.println("your booster vaccination is " + medical);
    
         
     
